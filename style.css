@@ -1,63 +1,79 @@
 
-.chidan {
-    background-color: rgb(116, 128, 143);
-    border: solid red 1px;
-    padding: px;
-    width: 650px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkBg: #1f2937;
+}
+
+.navbar {
+    background-color: var(--darkBg );
+    /* border: solid #ff0000 1px; */
+    padding: 0 5rem 0 5rem; 
+    display: flex;
     justify-content: space-between;
 }
 
-.nav-icons {
-    border: solid red 1px;
-    margin: 20px;
-    display: flex;
-    margin-top: 1px;
-    padding: top 4rem;
-    justify-content: right;
-    align-items: stretch;
-}
-
 .links {
-    color: white;
-    margin-top: 4px;
-    padding: 20px;
-    justify-self: start;
-    padding-top: 50px;
-    
-    
+    display: flex;
+    align-items: center;
 }
 
-.edit {
+.link {    
+    margin-left: 2rem;
     color: white;
-    margin: 50px;
+    text-decoration: none;
 }
 
+
+.headline {
+    display: flex;
+    column-gap: 2rem;
+    height: 400px;
+    padding: 3rem 5rem 0 5rem;
+    background-color: var(--darkBg);
+}
+
+.header-text {   
+    flex: 1;    
+    color: white;
+}
+
+.header-text > h1 {
+    margin-bottom: 1rem;
+}
+
+.header-text > p {
+    margin-bottom: 1rem;
+}
+
+.image {    
+    flex: 1;    
+    width: 200px;
+}
+
+.image > img {
+    width: 100%;
+}
 
 .btn {
     background-color: blue;
     color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
 }
 
-.image {
-    border: solid red 1px;
-    background-color: white;
-    padding: 10px;
-    width: 630px;
-    height: 200px;
-}
+.logo {
+    /* padding-top: 40px;
+} */
 
-.ff {
-   margin: auto;
-   display: block;
-   width: 60%;
-   display: flex;
-}  
 
-.info {
-    text-align: center;
-}
+     
 
-.lorem {
-    border: solid red 1px;
-}
+
 
