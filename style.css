@@ -69,8 +69,35 @@
 }
 
 .logo {
-    /* padding-top: 40px;
-} */
+     padding-top: px;
+
+}
+
+.contains {
+    border: solid red 1px;
+    display: flex;
+    padding: 0 8rem 0 8rem;
+    column-gap: 2rem;
+    height: 300px;
+    padding-top: 2rem;
+    border-radius: 8px;
+    justify-content: space-around;
+    
+}
+
+.players {
+ justify-content: center;
+ margin-left: 35rem;
+ padding-top: 2rem;
+}
+
+
+   .container {
+
+
+   }
+
+
 
 
      
