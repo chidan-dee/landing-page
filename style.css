@@ -75,7 +75,7 @@
 
 .contains {
     list-style-type: none;
-    width: 1008z;
+    /* width: 100%; */
     display: flex;
     padding: 0 8rem 0 8rem;
     column-gap: 2rem;
@@ -112,11 +112,47 @@ padding-top: 80px;
 }
 
 .quote-3 {
-    /* border: solid red 1px; */
     margin-left: 58rem;
     padding-bottom: 2rem;
    
 }
+
+.time{
+    display: flex;
+    color: #E5E7EB;
+    padding: 90px;
+    justify-content: center;
+}
+
+.registration {  
+    display: flex;
+    width: 80%;
+    background-color:#3882f6 ;
+    height: 100px;
+    padding: 30px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+span { 
+    font-size: 23px;
+}
+
+.bttn button {
+ padding: 10px 25px;
+ background-color: #3882f6;
+ font-weight: 800;
+ border-radius: 5px;
+ color: #E5E7EB;
+ border: solid 1px #E5E7EB;
+}
+
+
+/* .btn {
+    padding-top: 17px;
+    padding-left: 80px;
+} */
+
 
 
 
