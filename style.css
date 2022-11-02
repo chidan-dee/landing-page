@@ -147,11 +147,17 @@ span {
  border: solid 1px #E5E7EB;
 }
 
-
-/* .btn {
-    padding-top: 17px;
-    padding-left: 80px;
-} */
+.footer {
+    display: flex;
+     justify-content: center; 
+    height: 4rem;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--darkBg);
+     color: white; 
+     padding: 20px;
+    
+}
 
 
 
