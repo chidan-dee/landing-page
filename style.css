@@ -1,0 +1,173 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkBg: #1f2937;
+}
+
+.navbar {
+    background-color: var(--darkBg );
+    padding: 0 5rem 0 5rem; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.link {    
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+.headline {
+    display: flex;
+    column-gap: 2rem;
+    height: 400px;
+    padding: 3rem 5rem 0 5rem;
+    background-color: var(--darkBg);
+}
+
+.header-text {   
+    flex: 1;    
+    color: white;
+}
+
+.header-text > h1 {
+    margin-bottom: 1rem;
+}
+
+.header-text > p {
+    margin-bottom: 1rem;
+}
+
+.image {    
+    flex: 1;    
+    width: 200px;
+   padding-bottom: 4rem;
+}
+
+.image > img {
+    width: 100%;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.logo {
+     padding-top: 20px;
+     font-size: smaller;
+
+}
+
+.contains {
+     list-style-type: none;
+    display: flex;
+      padding: 0 8rem 0 8rem;
+    column-gap: 2rem;
+    height: 400px;
+    padding-top: 4rem; 
+    border-radius:48px;
+     justify-content: space-around;
+  
+}
+
+.container {
+   border-radius: 40px;
+   justify-content:  space-between;
+}
+
+.players {
+    color: 36px extra-bold #16191d;
+ justify-content: center;
+ margin-left: 35rem;
+ padding-top: 4rem;
+}
+
+.quote-1 {
+    color: #1f2937;
+    background-color: #E5E7EB;
+    height: 450px;
+    /* padding: 100px; */
+    /* margin-left: 20rem; */
+}
+
+.quote-2{
+    font-size: 36px;
+    display: flex;
+  justify-content: center;
+margin-bottom: 2rem;
+padding: 0 20rem 0 20rem;
+padding-top: 80px;
+}
+
+.quote-3 {
+    margin-left: 58rem;
+    padding-bottom: 2rem;
+   
+}
+
+.time{
+    display: flex;
+    color: #E5E7EB;
+    padding: 90px;
+    justify-content: center;
+}
+
+.registration {  
+    display: flex;
+    width: 80%;
+    background-color:#3882f6 ;
+    height: 100px;
+    padding: 30px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+span { 
+    font-size: 23px;
+}
+
+.bttn button {
+ padding: 10px 25px;
+ background-color: #3882f6;
+ font-weight: 800;
+ border-radius: 5px;
+ color: #E5E7EB;
+ border: solid 1px #E5E7EB;
+}
+
+.footer {
+    display: flex;
+     justify-content: center; 
+    height: 4rem;
+    font-size: 20px;
+    font-weight: boldaz`;
+    background-color: var(--darkBg);
+     color: white; 
+     padding: 20px;
+    
+}
+
+
+
+
+
+     
+
+
+
